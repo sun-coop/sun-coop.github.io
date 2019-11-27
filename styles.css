@@ -1,3 +1,20 @@
 body {
-  background-image: linear-gradient(to bottom right, rgb(255, 221, 85), rgb(255, 244, 198));
+  /* background-image: linear-gradient(to bottom right, rgb(255, 221, 85), rgb(255, 244, 198)); */
+}
+
+.header {
+  text-shadow: black 0.1em 0.1em 4em;
+}
+
+a,
+a:visited {
+  color: black;
+  text-decoration-color: rgb(255, 221, 85);
+  transition: 0.1s;
+}
+
+a:hover {
+  color: rgb(255, 221, 85);
+  text-decoration: none;
+  transition: 0.1s;
 }
