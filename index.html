@@ -1,80 +1,436 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sun Co-op</title>
-    <meta name="description" content="Sun Co-op is brewing...">
 
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
-    <link rel="stylesheet" href="styles.css"/>
-  </head>
-  <body class="sans-serif">
-    <article class="cf ph3 ph5-ns pv5">
-      <header class="fn fl-ns w-50-ns pr4-ns">
-        <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
-          Sun Co-op 🌞
-        </h1>
-        <h2 class="f3 lh-title">
-          Sun Co-op is a housing co-operative organising to develop purpose-built communal housing and work space.
+<head>
+  <meta charset="utf-8">
+  <title>Sun Co-op 🌞</title>
+  <meta name="description" content="Sun Co-op is a housing co-operative organising to develop purpose-built communal housing and work space.">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="sans-serif">
+  <div class="header vh-100 dt w-100 tc bg-dark-gray white cover" style="background:url(files/rendering-1.jpg) no-repeat center bottom fixed;">
+    <div class="dtc v-mid">
+      <header class="dib">
+        <!-- <h2 class="f2 ttu mb2 lh-title">🌞</h2> -->
+        <h1 class="f1 f-headline-l ph3">Sun Co-op</h1>
+        <h2 class="measure f2 lh-copy center fs-normal pb4">
+          A co-operative organising to develop purpose-built communal housing and work space
         </h2>
-        <time class="f6 ttu tracked">VISION AND MISSION</time>
       </header>
-      <div class="fn fl-ns w-50-ns">
-        <h2 class="f3 lh-title mt0-ns">
-          What
-        </h2>
-        <p class="f5 lh-copy measure">
-          We are working towards building a communal house in London based on the 'Communal Villa' project by The Realism Working Group and the architecture firm Dogma. We define communal housing as a shared social living arrangement, co-operatively run, and governed by the occupants on a fully mutual basis.
-        </p>
-        <p class="f5 lh-copy measure">
-          Sun Co-op will house around 40 people, a number large enough to be a community, but small enough to be manageable within one building. Each member-tenant will have a large private room and bathroom, while cooking, eating, laundry, and living spaces will be shared.
-        </p>
-        <p class="f5 lh-copy measure">
-          The building will also house a self-contained multi-purpose work space, run separately as a worker’s co-op. It will accommodate desk work, meetings, screenings, a library, and be open to use by individuals and groups.
-        </p>
-        <p class="f5 lh-copy measure">
-          We will create shared gardens and growing spaces on the grounds and rooftop. We are committed to reducing the ecological impacts of life in London, and intend to build using technologies, materials, and designs that enable low-energy use in the long-term running of the co-operative.
-        </p>
-        <h2 class="f3 lh-title mt0-ns">
-        Who
-        </h2>
-        <p class="f5 lh-copy measure">
-        Sun Co-op is an intentional community with a shared vision to build and live in a communal and co-operative living and working environment.
-        </p>
-        <p class="f5 lh-copy measure">
-        We are a group of London residents hailing from the city, other parts of the UK, and Europe. A collective of freelancers, teachers, part-time and multiple-job workers in the ‘creative industries’, we work, organise, and live in disparate areas of London. Currently a group of 8, we intend to expand and are open to people of different ages, backgrounds, ethnicities, genders, and experiences who share our vision.
-        </p>
-        <p class="f5 lh-copy measure">
-        The group initially bonded over research into alternative ways of building housing and organising living and working arrangements in the city. We visited the self-build houses of Walters Way, and met with tenants of existing housing co-ops in London including Sanford and Coin Street. We found our ideas focus around the 'Communal Villa', which poses a solution to balance the need for both solitude and communality in living and working.
-        </p>
-        <h2 class="f3 lh-title mt0-ns">
-        Why
-        </h2>
-        <p class="f5 lh-copy measure">
-        London is our home, and we want to stay here long term. We are against the unending transience of shifting further and further outwards, or even from city to city, chasing affordable rent. The co-operative housing model offers long-term domestic security by sharing the financial responsibility between members. Tenants collectively set the rent, which goes towards the running costs, improvements, repairs, and repaying loans taken to pay for the build. This mutual control and pooling of resources works against the precarity and dis-empowerment of private rental, and offers a social alternative to personal home ownership. The land we build on will be effectively locked out of the destructive landscape of property speculation, and instead maintained as social asset in perpetuity.
-        </p>
-        <p class="f5 lh-copy measure">
-        We have a common consciousness about exploring different ways of living together, experimenting with models outside of the traditional family home or atomised individual occupancy. The majority or existing domestic spaces are organised around the family unit, so it is necessary to build a house specifically designed for multiple individuals and families to comfortably co-exist as a community.
-        </p>
-        <h2 class="f3 lh-title mt0-ns">
-        Where
-        </h2>
-        <p class="f5 lh-copy measure">
-        Though the majority of us live in South East London, we are not all part of any one geographically-defined community, meaning we are excluded from much of the debate around community and locality. We would like to open up what can constitute a community in a city full of precariously and temporarily housed people.
-        </p>
-        <p class="f5 lh-copy measure">
-        We are interested in building on under-used or infill sites to increase the density of existing land and infrastructure. The scale of our project is suitable to a plot that may not make a financially viable investment for a large profit-driven developer, but this is not our motive.
-        </p>
-        <h2 class="f3 lh-title mt0-ns">
-        How
-        </h2>
-        <p class="f5 lh-copy measure">
-        The building costs will be funded through loans from existing housing co-ops, root stock loans, and ethical bank loans. It would be ideal to purchase land, but if this is out of our reach we will aim to get a long term lease on land from a council or other public body.
-        </p>
-        <p class="f5 lh-copy measure">
-        We are consulting and collaborating with experts in relevant fields, and successful similar projects. Without prior architectural or land development experience, but with resourcefulness and creativity, we hope to exemplify that well designed and managed housing can be achieved by anyone. This is a relatively small scale experiment, and we would like it to have the potential to be replicated by others, so are documenting our process and are committed to share our learning, as others have been sharing theirs with us.
-        </p>
-      </div>
-    </article>
-  </body>
+    </div>
+  </div>
+  <article class="measure-wide center f3 pv6">
+
+    <h1 id="1-what-is-sun-co-op-">1 What is Sun Co-op?</h1>
+
+    <h2 id="1-1-about-us">1.1 About us</h2>
+    <p>
+      Sun Housing Co-op is working towards building co-operative housing in London. The current members are residents of South-East and East London, working in education, design, and technology, predominantly as part-time and/or freelance
+      self-employed workers.
+    </p>
+    <p>
+      The group was formed in 2017, out of our shared interest in developing a fair and viable alternative housing model in the capital, for ourselves and others. We believe we can achieve a better quality of housing, with greater autonomy over how
+      we live, by moving beyond private ownership to collective ownership.
+    </p>
+
+    <h2 id="1-2-context">1.2 Context</h2>
+    <p>
+      Buying a house in London has become inaccessible to the majority of the population: <a href="https://www.homesandproperty.co.uk/property-news/buying/first-time-buyers/london-homes-for-firsttime-buyers-where-londoners-can-buy-for-less-than-350k-from-barking-and-a109241.html">the average first-time buyer in the capital now needs to budget £1,386 per month to service their mortgage</a> (up from £939pm in 2012), a figure that represents over 60% of the median income in the UK (£27,195 pa). Beyond this, it is estimated that <a href="https://www.theguardian.com/money/2018/apr/17/one-in-three-uk-millennials-will-never-own-a-home-report">one in three 20–35 year olds will never be able to own a home</a>.
+    </p>
+    <p>
+      Consequently, by being priced out of home ownership, a growing proportion of the population is occupying privately rented accommodation and it is estimated that <a href="https://www.theguardian.com/money/2017/jun/12/one-in-four-households-in-britain-will-rent-privately-by-end-of-2021-says-report">by 2021 a quarter of all households in Britain – 5.8 million – will be privately rented</a>. By 2022, private rental prices in Greater London are expected to have risen by over 10% since 2018, with <a href="https://www.theguardian.com/money/2015/jul/16/tenants-in-england-spend-half-their-pay-on-rent">some Londoners already paying 72% of their earnings in rent.</a> Despite the expense, <a href="https://www.statista.com/statistics/752447/tenant-satisfaction-with-cost-of-private-rental-uk/">85% of UK renters don’t think their rentrepresents good value for money</a>.
+    </p>
+    <p>
+      Alongside issues of affordability in the privately rented sector, <a href="https://www.bbc.co.uk/news/uk-43075176">tenants in the UK currently have a far less security than our European counterparts</a>. Current UK law offers tenants little protection – from landlords sharply increasing rents, failing to maintain properties sufficiently, or in some situations, from no-fault evictions – despite the economic burden placed on renters under the current system.
+    </p>
+    <p>
+      The result of these factors is that many Londoners are forced into a nomadic, isolated existence, seeking more affordable areas on the periphery of the capital, with no option but to rent or, if they can afford to, buy. This situation hinders the ability to make lasting attachments to our homes, our local communities, and to stay within a borough long enough to reap the social benefits of long-standing ties to a locality.
+    </p>
+
+    <h2 id="1-3-vision">1.3 Vision</h2>
+    <p>
+      Sun Housing Co-op seeks to develop co-operative housing; collectively owned, controlled and governed by tenant-members.
+    </p>
+    <p>
+      Our development will include shared communal spaces and multipurpose work space, as well as private living spaces, offering a social alternative to personal home ownership and ‘traditional’ living arrangements that cater only to discrete ‘nuclear’ family units. We believe that pooling resources and household amenities works against the precariousness and disempowerment we have experienced as isolated private renters.
+    </p>
+    <p>
+      Our vision is to create a space that remains in the control of our community as it evolves and changes over the years. The land that we use will be effectively locked out of the destructive landscape of property speculation, and instead maintained as a permanent social asset. We believe that autonomy over our housing and environment can help to break down financial and social divides, reduce our environmental impact on the city, as well as tackle states of insecurity, loneliness and depression.
+    </p>
+    <figure>
+      <img src="https://paper-attachments.dropbox.com/s_A0D064BA9503EBACE82B103052756866E71A86C61FBCB563DA91A6342FBD50D9_1559496233015_Diagram-space-v2.jpg" alt="How we envisage the delineation of shared resources and the  relationships between member-tenants and the surrounding area">
+      <figcaption>
+        How we envisage the delineation of shared resources and the relationships between member-tenants and the surrounding area
+      </figcaption>
+    </figure>
+
+    <h2 id="1-4-objectives">1.4 Objectives</h2>
+    <h3>Individual</h3>
+    <p>
+      For our tenants, Sun will provide a secure rent that is in line with the individual’s earnings. Their rent will also go towards owning an equity share of the project. This will enable our tenants to make a long-term home within an
+      increasingly inhospitable capital city. As well as security, Sun will give tenants greater autonomy by allowing them democratic control over their homes.
+    </p>
+    <p>
+      Sun aims to be flexible. In line with our hope that the coop will provide long-term accommodation for its members, the spaces and units in the building are alterable. Thus allowing flexibility to our members as their circumstances alter.
+    </p>
+    <h3>Co-operative</h3>
+    <p>
+      Sun has been heavily inspired London’s many long-running and successful cooperatives. We aim to build on this precedent to provide new democratically organised, social and secure living arrangements that support and promote cooperative living as a viable and preferable alternative to private renting and home ownership. Sun hopes that in time we will be able to replicate our project, and assist in educating and assisting similar ventures in order to expand the cooperative mission.
+    </p>
+    <h3>Neighbourhood</h3>
+    <p>
+      The land we build on will remain an asset to both our community and the local community. As well as providing for our member community, we want to strengthen the ties to the wider community in a number of ways. We will provide public access work and event spaces, the exact provision of which would be negotiated between the local community and workspace coop. We also envision our space as holding community dinners and events.
+    </p>
+    <p>
+      Sun also has a commitment to ecological and sustainable ideals. We aim to create green spaces and hope that we will be able to allow public access to some of our land.
+    </p>
+
+    <h2 id="1-5-precedent">1.5 Precedent</h2>
+    <p>
+      We hope to continue the inspirational legacy of co-operative projects such as Sanford in New Cross and Coin Street in Waterloo. These projects, from the 1970s and 80s, resulted in alternatives to private rent, and thanks to their sustainably
+      co-operative nature, they are still thriving today.
+    </p>
+    <p>
+      Sun Housing Co-op wishes to use these democratic ownership models to address current housing needs and the changing nature of land availability, as well as the rising cost of building in London.
+    </p>
+    <p>
+      Despite the adverse climate, some recent housing projects in London have been set up to address specific societal needs. For example, the Older Women’s Co-Housing (OWCH) in Barnet provides an alternative to living alone in later life for many
+      elderly women, by creating a community of neighbours enacting the principles of mutual aid.
+    </p>
+    <p>
+      Projects such as <a href="https://www.theruss.org/">RUSS</a> in Lewisham and <a href="http://www.startharingey.co.uk/">StART</a> in Harringey have won support from local councils, and been oversubscribed by potential tenants, demonstrating a strong interest in community-led housing in London. Similarly, across Europe, hundreds of community-led housing projects have been built in recent years. <a href="http://www.cch.coop/1001co-ophomes/">In Berlin, 5,000 homes – 15% of their new housing provision – is now being built every year by Baugruppen, Germany’s community housing movement, led by local communities shaping their own homes and destinies, with help from supportive local councils.</a>
+    </p>
+    <p>
+      Sun Housing Co-op hopes to continue this trajectory, and to encourage other types of housing to flourish. We are dedicated to bringing a project of this scale and innovation to London, and believe that working and thinking on this scale is
+      possible and necessary.
+    </p>
+
+    <h2 id="1-6-beyond-community">1.6 Beyond Community</h2>
+    <p>
+      We are interested in community as a process, not a noun. <a href="https://reallifemag.com/bad-metaphors-community/">The term is often invoked as irrefutably positive, a homogenising buzzword that glosses over the struggle encountered by people who work and live together.</a> Building relationships takes time and is not without conflict or difficulty – all of which are necessary for healthy, non-hierarchical bonds to develop between individuals. We recognise that communities are galvanised around place, but believe that location is secondary to the values of those who inhabit it, and make it what it is.
+    </p>
+    <p>
+      Our group formed around a shared interest in exploring different ways of living together, and as such we are not linked directly to any one geographically-defined neighbourhood. Yearly rental increases make it difficult to stay in the same accommodation for more than a few years, often resulting in renters moving increasingly further out of the centre, or out of the city, to keep rent manageable or to secure a mortgage on a property.
+    </p>
+    <p>
+      We want to establish a base from which to grow and expand our ideas about how to live together, experimenting with models outside of the traditional family home or atomised individual occupancy. The majority of existing domestic spaces are organised around the nuclear family unit, but we feel it is necessary to build a house specifically designed for multiple individuals or families with varying needs, desires and preferences.
+    </p>
+    <p>
+      The rigidity of nuclear family housing models promotes inequality – people who can’t afford to buy might share rented flats, while homeowners grow old in houses that have become too large for them. We see the need for a multi-generational, multi-ethnic, class-diverse approach to co-dependency, fostering co-operation rather than courting alienation.
+    </p>
+    <p>
+      We envision the first iteration of this project as a case study to showcase the benefits and desirability of this housing model. Using the skills and knowledge gained through initiating, managing and building the project, we could then act as advisors to subsequent groups, enabling more people to repeat the process on the many other available sites around London. Having established the first Sun Co-op, we would aim to replicate the project in other areas within fifteen years.
+    </p>
+
+    <h1 id="2-how-">2. How will we achieve this?</h1>
+    <h2 id="2-1-design-proposal">2.1 Design Proposal</h2>
+    <p>
+      Sun Housing Co-op is working with the architecture studio <a href="http://www.dogma.name/">Dogma</a> to develop a proposal for dwellings that achieve social resilience through democratic ownership.
+    </p>
+    <p>
+      The physical design is based around a modular system, which is able to adapt to different sites as needed. Additionally, internal room arrangements can be configured and reconfigured according to the needs of the occupants, providing combinations of single rooms, self-contained flats and communal living spaces. This means that the building neither excludes nor prioritises any type of occupant, whether living alone or with others. We intend to create a flexible and inclusive living environment which encourages principles of sharing and co-operation beyond traditional modes of habitation (ie. couples or family units).
+    </p>
+    <iframe src="files/dogma-modular-design.pdf#toolbar=0" width="100%" height="600px">
+    </iframe>
+    <p>
+      Dogma’s design allows for elements of self-build within the completed shell structure, to be carried out by residents. This active participation in the design and construction process provides opportunities to strengthen relationships within the co-op, gain essential knowledge for self-management of the building, and give the co-op a presence within the neighbourhood from an early stage.
+    </p>
+    <p>
+      The design is modelled to house 15 to 40 people, as we believe this range can constitute a broad community, small enough to be manageable and neighbourly within one building.
+    </p>
+    <iframe src="files/dogma-62.pdf#toolbar=0" width="100%" height="600px">
+    </iframe>
+
+    <h2 id="2-1-2-workspace">2.1.2 Workspace</h2>
+    <p>
+      The housing co-operative will lease a self-contained, multi-purpose workspace to a separately run worker’s co-operative, made up of residents and non-residents. This will accommodate desk work, workshops, meetings, screenings, a library, and be open to use by individuals and groups that will form the wider community surrounding Sun Housing Co-op.
+    </p>
+    <p>
+      This is in response to the lack of affordable workspace in London: the majority of ‘co-working spaces’ available are disproportionately expensive, making them available only to an exclusive section of the population of our cities. Furthermore, many of these schemes contribute to gentrification and individualise zero-hours labour.
+    </p>
+    <p>
+      In the ‘gig economy’, there is already pressure to work until burnout – living and working with other freelancers and self-employed people could intensify the pressure to work faster, harder, longer. This is why Dogma's model has paid particular attention to maintaining a clear boundary between the personal and the communal spaces (dining rooms, living rooms, kitchens, common laundry, workshop, terraces, gardens). The workspace is also flexible enough to be re-configured for a number of different event types that would allow the local community to access, participate in and enjoy the development.
+    </p>
+    <iframe src="files/dogma-65.pdf#toolbar=0" width="100%" height="600px">
+    </iframe>
+
+    <h2 id="2-1-3-green-approach">2.1.3 Green Approach</h2>
+    <p>
+      Sharing resources in a city is becoming an ecological necessity. Sun Housing Co-op is committed to reducing the ecological impacts of life in London, as well as the carbon footprint of our development. We intend to build using technologies, materials, and designs that enable low-energy use in the long-term running of the co-operative and to meet <a href="https://en.wikipedia.org/wiki/Passive_house"><em>passivhaus</em></a> standard (a ‘rigorous, voluntary standard for energy efficiency in building, which reduces a building&#39;s ecological footprint … resulting in ultra-low energy buildings that require little energy for space heating or cooling’.)
+    </p>
+    <p>
+      There are precedents to support this vision. <a href="https://www.archdaily.com/593154/r50-nil-cohousing-ifau-und-jesko-fezer-heide-and-von-beckerath">R-50, a co-housing development in Berlin, reduced the limits set by German Energy Saving Regulations (EnEV 2009) by 30%</a>. Similarly, <a href="https://www.lilac.coop/low-impact-living/">LILAC in Leeds</a> was built using a method which drastically lowered the carbon dioxide emitted by construction – the development actually captured and stored over 1000 tonnes of CO2. Insulating materials that store solar heat in winter and reject solar heat in summer reduce the need for heating. All properties in LILAC use solar energy, and residents reduce their environmental impact through car pooling, growing their own food, and regularly sharing meals.
+    </p>
+    <p>
+      We understand that addressing ecological concerns while remaining accessible – for example when using material for self-build aspects – is a challenge. For this reason, we would invite a co-opted committee member to advise us specifically on environmental impacts of our project from pre-construction to continued use. Also, we have specified that there will be a dedicated Site &amp; Environment subcomittee, who will oversee maintenance of shared gardens, food growing spaces, and compost on the grounds.
+    </p>
+
+    <h2 id="2-1-4-self-build">2.1.4 Self Build</h2>
+    <p>
+      Member-tenants have control over the building process, reducing the need for external contractors and further keeps costs down.
+    </p>
+    <figure>
+      <img src="files/self-build-1.jpg" alt="">
+    </figure>
+    <figure>
+      <img src="files/self-build-2.png" alt="">
+    </figure>
+
+    <h2 id="2-2-locations">2.2 Locations</h2>
+    <p>
+      We are interested in building on under-used or infill sites to increase the density of existing land and infrastructure. The scale of our project is suitable to a plot that may not be a financially viable investment for a large, profit-driven developer. For example, liminal spaces such as: unused green space, hills, next to railways and motorways, car parks etc.
+    </p>
+    <p>
+      We are against the unending transience of shifting further and further outwards, or even from city to city, chasing affordable rent. The co-operative housing model offers long-term domestic security by sharing the financial responsibility
+      between members.
+    </p>
+    <p>
+      All the potential sites listed as follows are close to transport infrastructure, and well-located for residential and workspace aspects of our project.
+    </p>
+
+    <h2 id="2-2-1-small-sites">2.2.1 Small Sites</h2>
+    <p>
+      On reading Dogma’s 2015 publication <em>Communal Villa: Production and Reproduction in Artist’s Housing</em>, we noticed a correlation between the Berlin sites described in their text and the Small Sites plots which form the H2 Policy section of the current Draft London Plan:
+    </p>
+    <blockquote cite="https://www.london.gov.uk/what-we-do/planning/london-plan/new-london-plan/draft-new-london-plan/">
+      ‘For London to meet its housing needs, small sites below 0.25 hectares in size must make a substantially greater contribution to new supply across the city. Therefore, increasing the rate of housing delivery from small housing sites is a strategic priority. Achieving this objective will require positive and proactive planning by boroughs both in terms of planning decisions and plan-making.’
+      <cite>— New London Plan draft</cite>
+    </blockquote>
+    <p>
+      The Mayor of London’s Small Sites initiative has made clear that land can be made available, with a specific focus and encouragement of community-led and self-build housing schemes. Here we would like to demonstrate the ways in which our project fits the criteria for sites of this kind, and how our project might address the rising need for an ‘intermediate’ sector of housing in an increasingly unaffordable setting like London.
+    </p>
+
+    <h2 id="2-2-2-rationale-for-site-selection">2.2.2 Rationale for site selection</h2>
+    <p>
+      The designs produced by Dogma have been made in collaboration with our group in order to specifically address the small, often awkwardly shaped sites that are typically available in the small sites bracket. The nature of the design means that the building can expand or contract to make efficient use of these sites, allowing possibilities that might be overlooked by more conventional developments.
+    </p>
+    <p>
+      There are many of these sites in London – generally close to transport links and relatively close to centres. The SHLAA report (Mayor of London, 2017) estimates that over its projected 10 year building period, 38% of housing developments could be delivered on small sites – around 245,730 homes.
+    </p>
+    <p>
+      As the SHLAA report demonstrates, the availability of suitable sites not an issue, but access to them is. If community-led housing projects are forced to compete with established developers, we run the risk of being beaten by a higher financial offer, even if our scheme proposes a more desirable social dynamic while addressing an emergent demographic not currently well-catered for.
+    </p>
+    <p>
+      We want to champion self-build and community-led aspects, which are mentioned specifically as desirable in the draft London Plan. In having a supervisor or experienced person to guide the self-built aspects, residents will learn about the overall construction and will therefore be able to modify it autonomously in the future.
+    </p>
+    <p>
+      We want to densify the existing urban area, rather than perpetually build outwards, furthering unnecessary urban sprawl. For example, the report notes that Newham (Zone 2) has one of the highest capacities for potential small site projects of
+      both inner and outer London.
+    </p>
+
+    <h2 id="2-2-3-example-sites-case-studies">2.2.3 Example Sites / Case Studies</h2>
+    <iframe src="files/dogma-case-studies.pdf#toolbar=0" width="100%" height="600px">
+    </iframe>
+
+    <h2 id="2-3-finance">2.3 Finance</h2>
+    <h2 id="2-3-1-development-finance">2.3.1 Development Finance</h2>
+    <p>
+      We are looking into a variety of sources to finance the different stages of our project. Once a site has been agreed and we enter the planning stages, we will fund financial appraisals, design and planning work through a mixture of personal finances, equity shares, fundraising and possibly development grants.
+    </p>
+    <p>
+      If a site is obtained and planning secured, we will approach a social lender, such as Triodos or Ecology bank in order to borrow the required capital to fund the purchase of land and construction of the homes. This loan usually covers 60–70% of the market value of the site, with the remainder being supplied through the aforementioned channels. Were we to encounter a financial gap we would consider the short term use of mezzanine finance.
+    </p>
+
+    <h2 id="2-3-2-long-term-finance">2.3.2 Long-term Finance</h2>
+    <p>
+      When the build has been completed we would re-finance and arrange to have a long-term mortgage which will paid over an agreed time period by members rent.
+    </p>
+
+    <h2 id="2-3-3-annual-costs">2.3.3 Annual costs</h2>
+    <p>
+      Member-tenant’s rent goes towards running costs, improvements, repairs, and repaying loans taken to pay for the build. According to <a href="https://docs.google.com/spreadsheets/d/1tXQsMhGhzR8erTCE0ljGDfDM4dOuuwIjyRCM1Ne91a4/edit#gid=1283733637">our initial costings</a> for the scenario of 38 Sun Co-op tenant-members, the co-op would receive £322,000 annually in rent (at fixed rate of 35% of income for all), according to this breakdown of number of residents and their income brackets:
+    </p>
+    <img src="https://paper-attachments.dropbox.com/s_CE88B5BE324A113D91E1C3928A6FF04E0EA7E246AB4874D49D8DE5E144E32D99_1566469864433_Diagram-financescenario-2.jpg" alt="">
+    <p>
+      This does not take into account equity shares or savings <em>on top of rental payments</em> that member-tenants may wish to safely invest in the coop.
+    </p>
+    <p>
+      Here is a breakdown of how 20 units might be organised within the co-op, in this particular scenario of 38 member-tenants:
+    </p>
+    <img src="https://paper-attachments.dropbox.com/s_CE88B5BE324A113D91E1C3928A6FF04E0EA7E246AB4874D49D8DE5E144E32D99_1566470396112_Diagram-financescenario-1.jpg" alt="">
+    <p>
+      Many housing co-operatives in the UK finance themselves on a Fully Mutual basis: when a member leaves, the money they put into the co-operative cannot be removed from the organisation. The MHOS model works differently, as members’ rent goes towards buying equity shares in the unit they inhabit. When a member leaves after an agreed period of time, they can take a proportion of these equity shares with them. Members sell their equity shares to a new tenant, so the house and land on which the property is situated remains under the ownership of the MHOS.
+    </p>
+    <p>
+      The viability of the model initially depends on members having some capital to invest in equity shares upfront, or being able to meet a minimum income level of £15,000. Whilst this is not ideal, as it precludes those on lower incomes, once the MHOS has been established, and its debt has been paid off, we aim to enable a wider and more inclusive range of income and savings levels to be welcomed into the co-operative.
+    </p>
+
+    <h2 id="2-4-allocation-and-membership-policy">2.4 Allocation and Membership Policy</h2>
+    <p>
+      Sun Housing Co-op is aimed at the Intermediate Rental Market, targeting those who earn too much to be considered for social housing but too little to access the property market.
+    </p>
+    <p>
+      Sun Housing Co-op is run by and for its tenant-members according to collectively decided aims and concerns. We commit to prioritising equality and diversity when accepting new members, irrespective of age, gender, class, ethnicity, religion,
+      sexual orientation, or health status to join and help build a network of mutual support within the co-operative.
+    </p>
+    <p>
+      To become a member of Sun Housing Co-op, you do not need to have experience in construction or architectural work. We are working with a team of professionals and consultants to help guide the development of the project.
+    </p>
+    <p>
+      As founder-members, we are experienced in group organising, self-governance, communication and outreach, and campaigning.
+    </p>
+    <p>
+      Sun Housing Co-op operates under the international co-operative principles of:
+    </p>
+    <ol>
+      <li>Voluntary and Open Membership</li>
+      <li>Democratic Member Control</li>
+      <li>Member Economic Participation</li>
+      <li>Autonomy and Independence</li>
+      <li>Education, Training and Information</li>
+      <li>Co-operation among Co-operatives</li>
+      <li>Concern for Community</li>
+    </ol>
+    <p>
+      To join, you will be expected to want to live in a communal setting, to take part in the democratic running of the co-op, and to respect other tenant-members of the co-op. Only tenants (or prospective tenants) may become members of the co-op.
+    </p>
+    <p>
+      To become a member of Sun Housing Co-op you:
+    </p>
+    <ul>
+      <li>Must meet the min. £15,000 / max. £50,000 yearly income requirement</li>
+      <li>May not own, or profit from, any other property</li>
+      <li>Must be over the age of 18 years old</li>
+    </ul>
+    <p>
+      As a member of Sun Housing Co-op you:
+    </p>
+    <ul>
+      <li>Pay a flat rate of 35% of your monthly income as rent (reassessed annually)</li>
+      <li>Have access to all communal / shared spaces</li>
+      <li>Have access to all the service / utility spaces.</li>
+      <li>Can be elected to the Management Committee, or else can be part of one of four Sub-committees that help with maintenance and wellbeing of the co-op.</li>
+      <li>Are guaranteed a long-term home, with the potential to swap units within the co-op if your circumstances change</li>
+      <li>Your rent goes toward owning a stake in the co-op which you then can withdraw if you leave (after a specified period of time tbc)</li>
+    </ul>
+
+    <h2 id="2-5-governance-and-legal-structure">2.5 Governance and Legal Structure</h2>
+    <p>
+      Sun Housing Co-op is an incorporated Co-operative Society.
+    </p>
+    <img src="https://paper-attachments.dropbox.com/s_A0D064BA9503EBACE82B103052756866E71A86C61FBCB563DA91A6342FBD50D9_1560200546641_Diagram-governance-v3.jpg" alt="Proposed Governance Structure of Sun Housing Co-op">
+    <p>
+      Sun Co-op is democratically run by its members, using <a href="http://sociocracyforall.org/">Sociocratic</a> principles.
+    </p>
+    <p>
+      As a Mutual Home Ownership Society,
+    </p>
+    <blockquote cite="https://www.lilac.coop/affordable/">
+      ‘each member has a lease which gives them the right to democratically control the housing community they live in. Members pay an equity share to the co-operative and retain equity in the scheme. … If members leave, existing members can buy more equity shares, and as people’s income levels change, their equity share commitments can also change’.
+    </blockquote>
+    <p>
+      Every member of the Co-op has a vote, and every member of the co-op is a tenant (or user of the co-op’s services). The Co-op is run via:
+    </p>
+    <ol>
+      <li>An Annual General Meeting, at which the Management Committee for the coming year will be elected. All members are expected to attend or to vote by proxy.</li>
+      <li>An elected Management Committee of 7–10 members, consisting of
+        <ul>
+          <li>Chair</li>
+          <li>Treasurer</li>
+          <li>Secretary</li>
+          <li>One representative from each of the four Sub-committees </li>
+          <li>Up to three co-opted non-member/s (advisors without voting rights)
+            <br />No business shall be transacted if fewer than 6 people are present at a Board Meeting.
+            <br />Special Board Meetings can be called if 6 members formally request it.</li>
+        </ul>
+      </li>
+      <li>Four Sub-committees:
+        <ul>
+          <li>Membership – new applications, settling in, outreach</li>
+          <li>Social – encouraging participation, organising events</li>
+          <li>Site & Environment – repairs, building maintenance, ecology</li>
+          <li>Education – skilling up members in accordance with co-op principles, replicating project</li>
+        </ul>
+      </li>
+    </ol>
+
+    <p>
+      Each Sub-committee acts autonomously within its area, electing a representative member to raise issues to the Management Committee. The minimum number of members in a Sub-committee is 3 (including the named representative).
+    </p>
+    <p>
+      Members may freely join a Sub-committee, but to gain a place on the Management Committee they must be elected at the AGM. The maximum term in any particular role is 4 continuous years.
+    </p>
+
+    <h1 id="3-timeline">3 Timeline</h1>
+    <h2 id="2017">2017</h2>
+    <ul>
+      <li>Initial meeting of 8 friends: discuss common values, expectations and desires</li>
+      <li>Meet with representatives of existing co-ops, build network </li>
+      <li>Attend co-op events, undertake research, educate ourselves</li>
+      <li>Use land registry to check status of potential sites, build an online map</li>
+    </ul>
+
+    <h2 id="2018">2018</h2>
+    <ul>
+      <li>Make initial contact with Dogma (architects)</li>
+      <li>Meet with Community Led Housing London</li>
+      <li>Dogma work on schematics as part of research project</li>
+      <li>Identify potential viable sites</li>
+    </ul>
+
+    <h2 id="2019-immediate-future">2019</h2>
+    <ul>
+      <li>Create prospectus to share with potential members and interested parties</li>
+      <li>Elect Management Committee (of founder members)</li>
+      <li>Form board (of advisors as co-opted management committee members) to advise on eco aspects, finance, etc …</li>
+      <li>Focus in on viable sites, choose specific location(s) to pursue</li>
+      <li>Assess financial viability with CLH</li>
+      <li>Visit LILAC, discuss MHOS and refine the model in relation to our specific project</li>
+      <li>Use the Land Insight Tool to get detailed information about a site and wether it is viable to pursue</li>
+      <li>Define legal structure, establish as Mutual Home Ownership Society</li>
+    </ul>
+
+    <h2 id="2020-immediate-future">2020 – Immediate future</h2>
+    <ul>
+      <li>Expand group based on interest – define demographics, individual financial situations …</li>
+      <li>Increase public facing image, cirulate prospectus amongst our network</li>
+      <li>Speak to councils and landowners, concrete steps towards defining site</li>
+      <li>Site valuation, pre-planning advice and building costs</li>
+      <li>Community Consultation in local area, show where we’re coming from</li>
+    </ul>
+
+    <h2 id="long-term-after-site-confirmed">Long Term / after site confirmed</h2>
+    <ul>
+      <li>Membership applications, interview and selection</li>
+      <li>Partner with London-based architects and contractor to advise on UK specific regulations</li>
+      <li>Finalise building design and room configurations based on site</li>
+      <li>Submit planning application</li>
+      <li>Negotiate and secure development finance </li>
+      <li>Define and monitor Cash flow</li>
+      <li>Local authority agree on budget, contract</li>
+      <li>Planning application amendments </li>
+      <li>Start to build on-site</li>
+      <li>Manage contractors, budget control</li>
+      <li>Quantity surveyor, quality control surveyor</li>
+      <li>Build foundations, prefrabricated elements: wooden structure, floor</li>
+      <li>Self-build elements: window frames, wall partitions, furniture</li>
+      <li>Move in, first rental payments </li>
+      <li>First Annual General Meeting with all members</li>
+      <li>Appointment of elected Management Committee</li>
+    </ul>
+
+    <h1 id="4-appendix">4 Appendix</h1>
+    <p>Statistics in this document have been gathered from the following papers:</p>
+    <ul>
+      <li><a href="https://www.powertochange.org.uk/wp-content/uploads/2018/08/Developing-a-Grant-Framework-CLH-Projects-Final.pdf">https://www.powertochange.org.uk/wp-content/uploads/2018/08/Developing-a-Grant-Framework-CLH-Projects-Final.pdf</a></li>
+      <li><a href="https://files.cargocollective.com/c186433/AffordableLand_2_2019.pdf">https://files.cargocollective.com/c186433/AffordableLand_2_2019.pdf</a></li>
+      <li><a href="https://ukmhos.weebly.com/uploads/1/5/7/1/15714058/common_ground_report.pdf">https://ukmhos.weebly.com/uploads/1/5/7/1/15714058/common_ground_report.pdf</a> </li>
+      <li><a href="https://www.london.gov.uk/sites/default/files/2017_london_strategic_housing_land_availability_assessment.pdf">https://www.london.gov.uk/sites/default/files/2017_london_strategic_housing_land_availability_assessment.pdf</a></li>
+      <li><a href="https://www.london.gov.uk/sites/default/files/draft_london_plan_-showing_minor_suggested_changes_july_2018.pdf">https://www.london.gov.uk/sites/default/files/draft_london_plan_-showing_minor_suggested_changes_july_2018.pdf</a></li>
+      <li><a href="https://www.rentbarometer.com/london/all-prices/by-postcode.html">https://www.rentbarometer.com/london/all-prices/by-postcode.html</a></li>
+      <li><a href="https://reallifemag.com/bad-metaphors-community/">https://reallifemag.com/bad-metaphors-community/</a></li>
+      <li><a href="https://blog.shelter.org.uk/2015/08/what-is-affordable-housing/">https://blog.shelter.org.uk/2015/08/what-is-affordable-housing/</a></li>
+    </ul>
+
+    <h1 id="5-appendix">5 Connect with us</h1>
+    <p>If you are interested in finding out more, please email coop.sun@pm.me</p>
+    <p>See more of our research on <a href="https://www.are.na/sun-housing-co-op">Are.na</a>.</p>
+
+  </article>
+</body>
+
 </html>
