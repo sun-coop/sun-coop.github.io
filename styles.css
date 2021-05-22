@@ -6,6 +6,10 @@ body {
   text-shadow: black 0.1em 0.1em 4em;
 }
 
+.header h2 {
+  text-shadow: #000 0em 0em 0.5em;
+}
+
 a,
 a:visited {
   color: black;
